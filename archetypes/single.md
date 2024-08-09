@@ -1,4 +1,0 @@
-+++
-nopostheader = true
-layout = "single"
-+++
