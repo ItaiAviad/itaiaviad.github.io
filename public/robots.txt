@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://itaiaviad.github.io/sitemap.xml
