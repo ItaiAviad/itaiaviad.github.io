@@ -63,13 +63,15 @@ params:
     imageWidth: 120
     imageHeight: 120
     imageTitle: 
-    buttons:
+    # buttons:
       - name: About
         url: aboutme
       - name: Posts
         url: posts
-      # - name: Tags
-        # url: tags
+      - name: Tags
+        url: tags
+      - name: Search
+        url: search
 
   # home-info mode
   homeInfoParams:
@@ -110,30 +112,28 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]
+    keys: ["title", "permalink", "summary", "content", "tags"]
   
-  outputs:
-    home:
-      - HTML
-      - RSS
-      - JSON # necessary for search
-  
-  searchHidden: true
+  searchHidden: false
 
 menu:
   main:
     - identifier: aboutme
       name: About me
       url: /aboutme/
-      weight: 10
+      weight: 30
     - identifier: Posts
       name: Posts
       url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
       weight: 20
-    # - identifier: tags
-      # name: Tags
-      # url: /tags/
-      # weight: 20
+    - identifier: Search
+      name: Search
+      url: /search/
+      weight: 40
     # - identifier: example
     #   name: example.org
     #   url: https://example.org
@@ -148,3 +148,9 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON # necessary for search

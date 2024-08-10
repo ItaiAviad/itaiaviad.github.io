@@ -13,7 +13,7 @@ canonicalURL = "https://canonical.url/to/page"
 disableHLJS = true
 disableShare = false
 hideSummary = false
-searchHidden = true
+searchHidden = false
 ShowReadingTime = true
 ShowBreadCrumbs = true
 ShowPostNavLinks = true
@@ -28,7 +28,7 @@ caption = "<text>"
 relative = false
 hidden = true
 
-[editPost]
+# [editPost]
 URL = "https://github.com/<path_to_repo>/content"
 Text = "Suggest Changes"
 appendFilePath = true
