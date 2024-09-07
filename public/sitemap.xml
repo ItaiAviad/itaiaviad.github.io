@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:80/posts/trading/divergence/</loc>
-    <lastmod>2024-09-06T15:17:21+03:00</lastmod>
+    <loc>http://localhost:80/posts/trading/fvg/</loc>
+    <lastmod>2024-09-07T14:05:41+03:00</lastmod>
   </url><url>
     <loc>http://localhost:80/</loc>
-    <lastmod>2024-09-06T15:17:21+03:00</lastmod>
+    <lastmod>2024-09-07T14:05:41+03:00</lastmod>
   </url><url>
     <loc>http://localhost:80/posts/trading/</loc>
+    <lastmod>2024-09-07T14:05:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:80/posts/trading/divergence/</loc>
     <lastmod>2024-09-06T15:17:21+03:00</lastmod>
   </url><url>
     <loc>http://localhost:80/posts/trading/reversal_strategy/</loc>
